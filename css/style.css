@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* index.html header elements */
+
+header {
+    display: block;
+    height: 500px;
+    background-image: url("/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header nav {
+    margin: 6px 0;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+header p {
+    margin-top: 16px;
+}
+
+/* MAIN elements */
+
+.estate-main {
+    margin: 20px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
