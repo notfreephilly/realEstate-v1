@@ -3,10 +3,32 @@
     padding: 0;
 }
 
+/* UTILITIES */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 100px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+}
+
+ul li{
+    list-style: none;
+}
 /* index.html header elements */
 
 header {
-    display: block;
+    /* display: block; */
     height: 500px;
     background-image: url("/img/header.jpg");
     background-size: cover;
@@ -38,7 +60,74 @@ header p {
 
 /* MAIN elements */
 
-.estate-main {
-    margin: 20px 30px;
+.about-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* SECTION elements */
+
+
+
+.house-item {
+    background-color: #f8f9fa;
+    width: 30%;
+}
+
+
+.container {
+    margin-top: 20px;
+    height: 300px;;
+}
+
+
+.container h2 {
+    font-size: 40px;
+}
+
+.house-item-text h3 {
+    font-size: 25px;
+}
+
+.house-item-container {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* .text elements */
+
+.house-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+
+}
+
+.house-item-text ul {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li {;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.text p + p {
+    font-size: 18px;
+    color: #70e000;
 }
