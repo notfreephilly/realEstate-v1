@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practice</title>
+    <style>
+        .input-control{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" class="input-control" value="predefined value">
+        <input type="number" class="input-control" id="age">
+        <input type="email" class="input-control" placeholder="Add your email">
+        <input type="password" class="input-control" required>
+        <input type="color" class="input-control" required>
+        <input type="date" class="input-control" disabled>
+
+        <!-- select option -->
+        <label for="">Select an option:</label>
+        <select name="" id="">
+            <option value="option1">-- Option 1 --</option>
+            <option value="option2">-- Option 2 --</option>
+            <option value="option3">-- Option 3 --</option>
+        </select>
+
+        <button>Add</button>
+    </form>
+
+    <h2>Product Exercise:</h2>
+    <form action="">
+        <input type="text" class="input-control" placeholder="Add product's name">
+        <input type="text" class="input-control" placeholder="Add a description">
+        <input type="text" class="input-control" placeholder="Add the price">
+        <p>Select the color of your product:</p>
+        <input type="color" class="input-control" required>
+
+        <label for="">Select the payment method:</label>
+        <select name="" id="">
+            <option value="cash">-- Cash --</option>
+            <option value="card">-- Card --</option>
+        </select>
+
+        <button>Add</button>
+    </form>
+</body>
+</html>
