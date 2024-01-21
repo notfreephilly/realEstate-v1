@@ -9,21 +9,21 @@
 <body>
         <header class="site-second">
             <div>
-                <h1>Real Estate</h1>
+                <h1>RealEstate</h1>
                 <nav>
+                    <a href="index.html">Home</a>
                     <a href="#">About</a>
                     <a href="#">Blog</a>
                     <a href="contact.html">Contact</a>
                 </nav>
-                <p>We sell luxury houses, condominiums, and penthouses</p>
             </div>
         </header>
 
-    <main>
+    <main class="contact-main">
         <h2>Contact</h2>
         <p>Fill the next information</p>
 
-        <form action="">
+        <form class="form-personal">
             <fieldset>
                 <legend>Personal Information</legend>
                 <div class="input-container">
@@ -40,9 +40,53 @@
                 </div>
                 <div class="input-container">
                     <label for="">Message:</label>
-                    <textarea cols="30" rows="10"></textarea>
+                    <textarea cols="60" rows="10"></textarea>
                 </div>
             </fieldset>
+        </form>
+
+        <form class="form-product">
+            <fieldset>
+                <legend>Product Information</legend>
+                <div class="input-container">Type</div>
+                <select name="" id="">
+                    <option value="">-- Select an option --</option>
+                    <option value="">Shoes</option>
+                    <option value="">Shirts</option>
+                    <option value="">Pants </option>
+                    <option value="">Hoodies</option>
+                    <option value="">Hats and Beanies</option>
+                    <option value="">Gloves</option>
+                </select>
+
+                <div class="input-container">Number</div>
+                <input type="number">
+            </fieldset>
+        </form>
+
+        <form class="form-contact">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="contact-container">
+                    <label for="phone">Phone:</label>
+                    <input type="radio">
+                    <label for="email">Email:</label>
+                    <input type="radio">
+                </div>
+
+                <div class="time-container">
+                    <p>If you want to be contacted by phone, please select a day and hour</p>
+                    <label for="date">Date:</label>
+                    <br>
+                    <input type="date">
+                    <br>
+                    <label for="hour">Hour:</label>
+                    <br>
+                    <input type="time">
+                </div>
+            </fieldset>
+            <button class="form-btn">Send</button>
         </form>
     </main>
 </body>
